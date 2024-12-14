@@ -1,0 +1,75 @@
+{
+  "bot_name": "jagat-bot",
+  "owner_uid": "918948033470",
+  "owner_name": "jagat-dahal",
+  "prefix": ".",
+  "commands": [
+    {
+      "name": "Gemini",
+      "description": "Talk to Gemini AI",
+      "usage": ".Gemini <message>",
+      "handler": "geminiHandler"
+    },
+    {
+      "name": "kick",
+      "description": "Kick a member from the group",
+      "usage": ".kick <member_id>",
+      "handler": "kickHandler",
+      "group_only": true
+    },
+    {
+      "name": "quiz",
+      "description": "Play a quiz game",
+      "usage": ".quiz",
+      "handler": "quizHandler"
+    },
+    {
+      "name": "video download",
+      "description": "Download a video from a URL",
+      "usage": ".video download <url>",
+      "handler": "videoDownloadHandler"
+    },
+    {
+      "name": "dalle",
+      "description": "Generate an image using DALL-E",
+      "usage": ".dalle <prompt>",
+      "handler": "dalleHandler"
+    },
+    {
+      "name": "help",
+      "description": "Displays a list of available commands",
+      "usage": ".help",
+      "handler": "helpHandler"
+    },
+    {
+      "name": "about",
+      "description": "Displays information about the bot",
+      "usage": ".about",
+      "handler": "aboutHandler"
+    },
+    {
+      "name": "ping",
+      "description": "Tests the bot's response time",
+      "usage": ".ping",
+      "handler": "pingHandler"
+    },
+    {
+      "name": "echo",
+      "description": "Repeats back the user's message",
+      "usage": ".echo <message>",
+      "handler": "echoHandler"
+    },
+    {
+      "name": "roll",
+      "description": "Rolls a random number between 1 and 100",
+      "usage": ".roll",
+      "handler": "rollHandler"
+    },
+    {
+      "name": "coinflip",
+      "description": "Flips a virtual coin and displays the result",
+      "usage": ".coinflip",
+      "handler": "coinflipHandler"
+    }
+  ]
+}
