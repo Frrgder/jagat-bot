@@ -2,7 +2,7 @@
   "bot_name": "jagat-bot",
   "owner_uid": "918948033470",
   "owner_name": "jagat-dahal",
-  "prefix": ".",
+  "prefix": "!",
   "commands": [
     {
       "name": "Gemini",
